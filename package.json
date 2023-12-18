@@ -1,0 +1,14 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd src/scripts && yarn tsc && node test && cd ../..",
+    "build": "yarn build & node public/bundle.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+  
+}
